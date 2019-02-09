@@ -1,26 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
+import Person from './Person/Person'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1>Hi I am a react app</h1>
+        <Person></Person>
       </div>
     );
   }
 }
 
 export default App;
+  
